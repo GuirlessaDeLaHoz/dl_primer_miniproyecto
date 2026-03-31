@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Primer Miniproyecto Deep Learning"
+  navbar:
+    left:
+      - href: MP1_INICIO_Completo.ipynb
+        text: Inicio
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - MP1_INICIO_Completo.ipynb
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: false
+    code-tools: true
+    embed-resources: true
