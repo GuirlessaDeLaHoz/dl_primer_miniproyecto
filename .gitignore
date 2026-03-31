@@ -1,0 +1,22 @@
+﻿# Entornos virtuales
+dl_venv/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / HTML
+_build/
+_site/
+
+# Datos pesados
+data/
+*.csv
+
+# VS Code
+.vscode/
